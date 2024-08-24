@@ -373,7 +373,7 @@ export default function App() {
       <div className="wrapper flex justify-center w-full p-10 min-h-[92vh]">
         <div className="screen w-full lg:w-[65%] md:w-[80%] space-y-8">
           {/* __________________ Header Area _____________________ */}
-          <div className="header flex items-center justify-between border border-[#d33852] p-4 rounded-lg">
+          <div className="header flex items-center justify-between border border-slate-200 shadow-md p-4 rounded-lg">
             <div className="brand font-bold text-xl">Course builder</div>
             <div className="add-button relative">
               <button
@@ -453,7 +453,7 @@ export default function App() {
 
           {/* _______________ Empty state _______________ */}
           {Array.isArray(items) && items.length === 0 && (
-            <div className="flex items-center justify-center min-h-[70vh] border border-[#d33852] p-4 rounded-lg">
+            <div className="flex items-center justify-center min-h-[65vh] p-4">
               <ImageComponent />
             </div>
           )}

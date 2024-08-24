@@ -9,8 +9,17 @@ body {
   background: #f9f9f9;
 }
 
-.dnd-sortable-tree_simple_tree-item{
+.dnd-sortable-tree_simple_tree-item {
   column-gap: 12px;
-  border: none!important;
-  width: 100%!important;
+  border: none !important;
+  width: 100% !important;
+}
+
+.dnd-sortable-tree_simple_wrapper{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.dnd-sortable-tree_simple_handle {
+  display: none;
 }
